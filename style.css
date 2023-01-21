@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+body {
+    background-color: pink;
+    border: 3px solid black;
+}
+
+td {
+    margin-left: 200px;
+}
+
+.form {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 40%;
+}
+
+table {
+    width: 100%;
+}
+
+button {
+    margin: 6px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.fixed-header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+h2 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+
+.positioned {
+    position: absolute;
+    top: 988px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 250px;
+}
+
+.floated {
+    float: right;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+    visibility: visible;
+}
+
+h3 {
+    text-decoration: underline;
+    color: rgb(205, 34, 120);
+}
